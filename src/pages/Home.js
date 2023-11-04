@@ -1,6 +1,11 @@
+import Header from '../components/Header'
+
 function Home() {
-    return(
-        <h1>NYE Con🎊</h1>
+    return (
+        <div className='Home'>
+            <h1>NYE Con🎊</h1>
+            <Header />
+        </div>
     )
 }
 
