@@ -1,12 +1,12 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
+import Layout from './components/Layout/Layout'
 import Home from './pages/Home'
 import Page404 from './pages/Page404'
 
 function App() {
   return (
-    <div className="App m-2.5">
+    <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

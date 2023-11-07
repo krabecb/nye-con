@@ -1,0 +1,10 @@
+@keyframes changeColor {
+    from, to { background-color: #FF4266; }
+    30%      { background-color: #FC9D9A; }
+    60%      { background-color: #FACDAC; }
+    80%      { background-color: #84B09D; }
+}
+
+.color-divide {
+    animation: 4s changeColor infinite;
+}
