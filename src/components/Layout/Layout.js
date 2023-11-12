@@ -11,9 +11,7 @@ function Layout() {
             <Dashboard />
           </li>
         </ul>
-        <div className='color-divide h-2'>
-
-        </div>
+        <div className='color-divide h-2'></div>
       </nav>
 
       <Outlet />

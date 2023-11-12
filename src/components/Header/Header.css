@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Shadows+Into+Light&display=swap');
+
+@keyframes changeTextColor {
+    from, to { color: #3FC9FF; }
+    20%      { color: #FDDC75; }
+    40%      { color: #F9805A; }
+    60%      { color: #F33474; }
+    80%      { color: #7D6CEC; }
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h1, h2 {
+    font-family: 'Bungee', 'Arial';
+    animation: 4s changeTextColor infinite;
+}
