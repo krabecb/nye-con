@@ -17,7 +17,7 @@ function Dashboard() {
     }
 
     return (
-        <div className="Dashboard flex justify-center">
+        <div className="Dashboard">
             <Button
                 id="basic-button"
                 aria-controls={open ? 'basic-menu' : undefined}
