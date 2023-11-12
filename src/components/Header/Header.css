@@ -8,11 +8,19 @@
     80%      { color: #7D6CEC; }
 }
 
+@keyframes pulse{
+    20%  {transform: scale(.9);}
+    80%  {transform: scale(1.1);}
+}
+
 h1 {
     font-size: xx-large;
+    animation-name: changeTextColor, pulse;
+    animation-duration: 8s, 1.8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite, infinite;
 }
 
 h1, h2 {
     font-family: 'Bungee', 'Arial';
-    animation: 4s changeTextColor infinite;
 }
