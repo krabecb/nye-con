@@ -1,23 +1,24 @@
 import './Layout.css'
-import { Outlet, Link } from 'react-router-dom'
+import Dashboard from '../Dashboard/Dashboard'
+import { Outlet } from 'react-router-dom'
 
 function Layout() {
-    return (
-        <div className='Layout'>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-            </ul>
-            <div className='color-divide h-2'>
+  return (
+    <div className='Layout'>
+      <nav>
+        <ul>
+          <li>
+            <Dashboard />
+          </li>
+        </ul>
+        <div className='color-divide h-2'>
 
-            </div>
-          </nav>
-    
-          <Outlet />
         </div>
-      )
+      </nav>
+
+      <Outlet />
+    </div>
+  )
 }
 
 export default Layout

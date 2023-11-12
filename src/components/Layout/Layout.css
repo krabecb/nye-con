@@ -1,8 +1,9 @@
 @keyframes changeColor {
-    from, to { background-color: #FF4266; }
-    30%      { background-color: #FC9D9A; }
-    60%      { background-color: #FACDAC; }
-    80%      { background-color: #84B09D; }
+    from, to { background-color: #3FC9FF; }
+    20%      { background-color: #FDDC75; }
+    40%      { background-color: #F9805A; }
+    60%      { background-color: #F33474; }
+    80%      { background-color: #7D6CEC; }
 }
 
 .color-divide {
